@@ -9,6 +9,7 @@ function checkPalindrome() {
     console.log(cleanedDob)
 
     console.log(reversedob)
+
     if (cleanedDob === reversedob) {
         Output.innerText = 'Your Bday Date is Palindrome';
     } else {
